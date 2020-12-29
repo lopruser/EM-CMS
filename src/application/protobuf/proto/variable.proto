@@ -1,0 +1,28 @@
+syntax = "proto3";
+package protobuf;
+option go_package = ".;protobuf";
+import "Etpmls/Etpmls-Micro/common.proto";
+import "google/api/annotations.proto";
+
+message VariableCreate {
+    message Variable {
+        string name=1;
+        string value=2;
+        string remark=3;
+    }
+    repeated Variable variable=1;
+}
+
+service Variable {
+    rpc Create (VariableCreate) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            post: "/api/cms/v1/variable/create"
+            body: "*"
+        };
+    };
+    rpc GetAll (em_protobuf.Empty) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            get: "/api/cms/v1/variable/getAll"
+        };
+    };
+}

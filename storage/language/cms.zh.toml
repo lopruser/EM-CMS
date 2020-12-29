@@ -1,0 +1,3 @@
+ERROR_MESSAGE_DataIsEmpty = "数据不能为空！"
+ERROR_MESSAGE_SubCategoriesExist = "待删除的分类中包含子分类，请先删除子分类，再删除父分类！"
+ERROR_MESSAGE_PostExist = "分类中包含文章，请先删除分类下的所有文章，再删除分类！"

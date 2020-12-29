@@ -1,0 +1,101 @@
+2020/12/28 09:24:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:89: [ERROR] Failed to read the Configuration file! Error: open storage/config/app.yaml: The system cannot find the path specified.
+2020/12/28 09:24:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:28: [WARNING] Set Instance_Logrus Level Failed!  Error: not a valid logrus Level: ""
+2020/12/28 09:31:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:89: [ERROR] Failed to read the Configuration file! Error: open storage/config/app.yaml: The system cannot find the file specified.
+2020/12/28 09:31:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:28: [WARNING] Set Instance_Logrus Level Failed!  Error: not a valid logrus Level: ""
+2020/12/28 09:32:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 09:32:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 09:32:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 09:32:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 09:32:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 09:33:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 09:33:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 09:33:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 09:33:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 09:33:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 09:34:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 09:34:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 09:34:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 09:34:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 09:34:48 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 09:39:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 09:39:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 09:39:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 09:39:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 09:39:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 09:45:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 09:45:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 09:45:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 09:45:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 09:45:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/28 09:45:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/28 09:45:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 09:52:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 09:52:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 09:52:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 09:52:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 09:52:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/28 09:52:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/28 09:52:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 14:29:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 14:29:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 14:29:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 14:29:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 14:29:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/28 14:29:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/28 14:29:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 16:03:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 16:03:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 16:03:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 16:03:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 16:03:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/28 16:03:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/28 16:03:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 16:11:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 16:11:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 16:11:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 16:11:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 16:11:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/28 16:11:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/28 16:11:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/28 16:46:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/28 16:46:54 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/28 16:46:55 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/28 16:46:55 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/28 16:46:55 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/28 16:46:55 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/28 16:46:55 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/29 08:10:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/29 08:10:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/29 08:10:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/29 08:10:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/29 08:10:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/29 08:10:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/29 08:10:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/29 09:06:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/29 09:06:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/29 09:06:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/29 09:06:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/29 09:06:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/29 09:06:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/29 09:06:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/29 09:28:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/29 09:28:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/29 09:28:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/29 09:28:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/29 09:28:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/29 09:28:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/29 09:28:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/29 10:55:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/29 10:55:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/29 10:55:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/29 10:55:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/29 10:55:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/29 10:55:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/29 10:55:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2020/12/29 10:56:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2020/12/29 10:56:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2020/12/29 10:56:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2020/12/29 10:56:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2020/12/29 10:56:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2020/12/29 10:56:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2020/12/29 10:56:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!

@@ -1,0 +1,72 @@
+syntax = "proto3";
+package protobuf;
+option go_package = ".;protobuf";
+import "Etpmls/Etpmls-Micro/common.proto";
+import "google/api/annotations.proto";
+
+message CategoryCreate {
+    string name=1;
+    uint32 parent_id=2;
+    string kind=3;
+    string url_path=4;
+    uint32 sort=5;
+    string summary=6;
+    string template_path=7;
+    string post_template_path=8;
+    int32 status=9;
+    int32 is_hidden=10;
+    int32 is_main=11;
+    message Path {
+        string path=1;
+    }
+    repeated Path thumbnail=12;
+}
+
+message CategoryEdit {
+    string name=1;
+    uint32 parent_id=2;
+    string kind=3;
+    string url_path=4;
+    uint32 sort=5;
+    string summary=6;
+    string template_path=7;
+    string post_template_path=8;
+    int32 status=9;
+    int32 is_hidden=10;
+    int32 is_main=11;
+    message Path {
+        string path=1;
+    }
+    repeated Path thumbnail=12;
+    uint32 id=13;
+}
+
+message CategoryDelete {
+    repeated em_protobuf.Id categories=1;
+}
+
+service Category {
+    rpc Create (CategoryCreate) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            post: "/api/cms/v1/category/create"
+            body: "*"
+        };
+    };
+    rpc Edit (CategoryEdit) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            put: "/api/cms/v1/category/edit"
+            body: "*"
+        };
+    };
+    rpc Delete (CategoryDelete) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            delete: "/api/cms/v1/category/delete"
+            body: "*"
+        };
+    };
+    rpc GetTree (em_protobuf.Empty) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            get: "/api/cms/v1/category/getTree"
+        };
+    };
+}
