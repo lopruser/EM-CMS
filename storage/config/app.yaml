@@ -71,7 +71,7 @@ database:
 service-discovery:
   # [Required] Service discovery server address (eg: localhost:8500)
   # [必填] 服务发现服务器地址(如：localhost:8500)
-  address: 192.168.3.219:8500
+  address: 192.168.2.242:8500
   service:
     rpc:
       # [Required] RPC Service id (eg: AuthRpcService-1)
@@ -103,7 +103,7 @@ service-discovery:
     prefix: "em-"
     # [Required] Local IP address (eg: 192.168.1.100)
     # [必填] 本机IP地址(如：192.168.1.100)
-    address: 192.168.3.225
+    address: 192.168.2.221
     # [Required] Node health check interval (eg: 60s)
     # [必填] 节点健康检查时间间隔(如：60s)
     check-interval: "5s"

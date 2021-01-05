@@ -251,7 +251,10 @@ func (this *ServiceCategory) GetTree(ctx context.Context, request *em_protobuf.E
 		return em.ErrorRpc(codes.InvalidArgument, em.ERROR_Code, em.I18n.TranslateFromRequest(ctx, "ERROR_Get"), nil, err)
 	}
 
-	category.WithAttachment(tree, "a")
+	err = category.WithAttachment(&ctx, &tree, application.Relationship_category_thumbnail)
+	if err != nil {
+		return em.ErrorRpc(codes.InvalidArgument, em.ERROR_Code, em.I18n.TranslateFromRequest(ctx, "ERROR_Get"), nil, err)
+	}
 
 	return em.SuccessRpc(em.SUCCESS_Code, em.I18n.TranslateFromRequest(ctx, "SUCCESS_Delete"), tree)
 }

@@ -20,6 +20,7 @@ const _ = grpc.SupportPackageIsVersion7
 type AttachmentClient interface {
 	Create(ctx context.Context, in *AttachmentCreate, opts ...grpc.CallOption) (*protobuf.Response, error)
 	GetOne(ctx context.Context, in *AttachmentGetOne, opts ...grpc.CallOption) (*protobuf.Response, error)
+	GetMany(ctx context.Context, in *AttachmentGetMany, opts ...grpc.CallOption) (*protobuf.Response, error)
 	DiskCleanUp(ctx context.Context, in *AttachmentDiskCleanUp, opts ...grpc.CallOption) (*protobuf.Response, error)
 	CreateMany(ctx context.Context, in *AttachmentCreateMany, opts ...grpc.CallOption) (*protobuf.Response, error)
 	Delete(ctx context.Context, in *AttachmentDelete, opts ...grpc.CallOption) (*protobuf.Response, error)
@@ -46,6 +47,15 @@ func (c *attachmentClient) Create(ctx context.Context, in *AttachmentCreate, opt
 func (c *attachmentClient) GetOne(ctx context.Context, in *AttachmentGetOne, opts ...grpc.CallOption) (*protobuf.Response, error) {
 	out := new(protobuf.Response)
 	err := c.cc.Invoke(ctx, "/protobuf.Attachment/GetOne", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *attachmentClient) GetMany(ctx context.Context, in *AttachmentGetMany, opts ...grpc.CallOption) (*protobuf.Response, error) {
+	out := new(protobuf.Response)
+	err := c.cc.Invoke(ctx, "/protobuf.Attachment/GetMany", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -94,6 +104,7 @@ func (c *attachmentClient) Append(ctx context.Context, in *AttachmentAppend, opt
 type AttachmentServer interface {
 	Create(context.Context, *AttachmentCreate) (*protobuf.Response, error)
 	GetOne(context.Context, *AttachmentGetOne) (*protobuf.Response, error)
+	GetMany(context.Context, *AttachmentGetMany) (*protobuf.Response, error)
 	DiskCleanUp(context.Context, *AttachmentDiskCleanUp) (*protobuf.Response, error)
 	CreateMany(context.Context, *AttachmentCreateMany) (*protobuf.Response, error)
 	Delete(context.Context, *AttachmentDelete) (*protobuf.Response, error)
@@ -110,6 +121,9 @@ func (UnimplementedAttachmentServer) Create(context.Context, *AttachmentCreate) 
 }
 func (UnimplementedAttachmentServer) GetOne(context.Context, *AttachmentGetOne) (*protobuf.Response, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetOne not implemented")
+}
+func (UnimplementedAttachmentServer) GetMany(context.Context, *AttachmentGetMany) (*protobuf.Response, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method GetMany not implemented")
 }
 func (UnimplementedAttachmentServer) DiskCleanUp(context.Context, *AttachmentDiskCleanUp) (*protobuf.Response, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method DiskCleanUp not implemented")
@@ -168,6 +182,24 @@ func _Attachment_GetOne_Handler(srv interface{}, ctx context.Context, dec func(i
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AttachmentServer).GetOne(ctx, req.(*AttachmentGetOne))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _Attachment_GetMany_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(AttachmentGetMany)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(AttachmentServer).GetMany(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/protobuf.Attachment/GetMany",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(AttachmentServer).GetMany(ctx, req.(*AttachmentGetMany))
 	}
 	return interceptor(ctx, in, info, handler)
 }
@@ -255,6 +287,10 @@ var _Attachment_serviceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "GetOne",
 			Handler:    _Attachment_GetOne_Handler,
+		},
+		{
+			MethodName: "GetMany",
+			Handler:    _Attachment_GetMany_Handler,
 		},
 		{
 			MethodName: "DiskCleanUp",

@@ -46,6 +46,23 @@ func (this *client) Attachment_CreateMany(ctx *context.Context, paths []string, 
 	},nil)
 }
 
+func (this *client) Attachment_GetMany(ctx *context.Context, owner_ids []uint32, owner_type string) ([]byte, error) {
+	cl := em.Micro.Client.NewClient()
+	err := cl.ConnectServiceWithToken(application.Service_Attachment, ctx)
+	if err != nil {
+		em.LogWarn.OutputSimplePath(err)
+		return nil, err
+	}
+
+	c := protobuf.NewAttachmentClient(cl.Conn)
+	return cl.Sync_SimpleV2(func() (response *em_protobuf.Response, e error) {
+		return c.GetMany(*ctx, &protobuf.AttachmentGetMany{
+			Service:       em.Micro.Config.ServiceDiscovery.Service.Rpc.Name,
+			OwnerIds:       owner_ids,
+			OwnerType:     owner_type,
+		})
+	},nil)
+}
 
 type Parameter_Post_CreateImage struct {
 	Paths     []string

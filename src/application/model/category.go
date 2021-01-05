@@ -1,9 +1,12 @@
 package model
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"github.com/Etpmls/EM-CMS/src/application"
+	"github.com/Etpmls/EM-CMS/src/application/client"
 	em "github.com/Etpmls/Etpmls-Micro"
 	"github.com/go-redis/redis/v8"
 	"gorm.io/gorm"
@@ -238,22 +241,57 @@ func (this *Category) MakeTree(m []Category)  []Category {
 	return tree
 }
 
-func (this *Category) WithAttachment(c []Category, owner_type string) ([]Category, error) {
+func (this *Category) WithAttachment(ctx *context.Context, c *[]Category, owner_type string) (error) {
 	// 1.Get all ids
-	var f func (v []Category, ids *[]uint)
-	f = func (v []Category, ids *[]uint) {
+	var f func (v []Category, ids *[]uint32)
+	f = func (v []Category, ids *[]uint32) {
 		for _, sv := range v {
-			*ids = append(*ids, sv.ID)
+			*ids = append(*ids, uint32(sv.ID))
 			if sv.Children != nil {
 				f(sv.Children, ids)
 			}
 		}
 	}
-	var ids []uint
-	f(c, &ids)
+	var ids []uint32
+	f(*c, &ids)
 
 	// 2.Get all thumbnail
+	b, err := client.NewClient().Attachment_GetMany(ctx, ids, application.Relationship_category_thumbnail)
+	if err != nil {
+		return err
+	}
 
+	var tmp []Attachment
+	err = json.Unmarshal(b, &tmp)
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+		return err
+	}
 
-	return nil, nil
+	if len(tmp) == 0 {
+		return nil
+	}
+
+	var f2 func(cat *[]Category)
+	f2 = func(cat *[]Category) {
+		for k, v := range *cat {
+			// Find whether the current attachment contains a thumbnail
+			for i := 0; i < len(tmp); i++ {
+				if v.ID == tmp[i].OwnerID {
+					(*cat)[k].Thumbnail = append((*cat)[k].Thumbnail, tmp[i])
+					// Delete slice
+					tmp = append(tmp[:i], tmp[i+1:]...)
+					i--
+				}
+			}
+			// If have child
+			if v.Children != nil {
+				f2(&v.Children)
+			}
+		}
+	}
+
+	f2(c)
+
+	return nil
 }
