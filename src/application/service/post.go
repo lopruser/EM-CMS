@@ -7,6 +7,7 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
 	em "github.com/Etpmls/Etpmls-Micro"
+	"github.com/Etpmls/Etpmls-Micro/define"
 	em_library "github.com/Etpmls/Etpmls-Micro/library"
 	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
 	"github.com/google/uuid"
@@ -33,8 +34,8 @@ type validate_PostCreate struct {
 	Parameter string `json:"parameter"`
 	Status int	`json:"status" validate:"numeric,max=99"`
 	// tmp field
-	Thumbnail  []model.Attachment    `gorm:"polymorphic:Owner;polymorphicValue:post-thumbnail" json:"thumbnail"`
-	ContentImage  []model.Attachment `gorm:"polymorphic:Owner;polymorphicValue:post-content" json:"content_image"`
+	Thumbnail  []model.Attachment    `gorm:"-" json:"thumbnail"`
+	ContentImage  []model.Attachment `gorm:"-" json:"content_image"`
 }
 func (this *ServicePost) Create(ctx context.Context, request *protobuf.PostCreate) (*em_protobuf.Response, error) {
 	// Validate
@@ -75,23 +76,16 @@ func (this *ServicePost) Create(ctx context.Context, request *protobuf.PostCreat
 		for _, v := range request.Thumbnail {
 			thumbnail_path = append(thumbnail_path, v.Path)
 		}
-		var t = client.Parameter_Post_CreateImage{
-			Paths:     thumbnail_path,
-			OwnerId:   uint32(form.ID),
-			OwnerType: application.Relationship_Post_Thumbnail,
+		err := client.NewClient().Attachment_CreateMany(&ctx, thumbnail_path, uint32(form.ID), application.Relationship_Post_Thumbnail)
+		if err != nil {
+			return err
 		}
 
 		var content_path []string
 		for _, v := range request.ContentImage {
 			content_path = append(content_path, v.Path)
 		}
-		var c = client.Parameter_Post_CreateImage{
-			Paths:     content_path,
-			OwnerId:   uint32(form.ID),
-			OwnerType: application.Relationship_Post_Content,
-		}
-
-		err := client.NewClient().Post_CreateImage(ctx, t, c)
+		err = client.NewClient().Attachment_CreateMany(&ctx, content_path, uint32(form.ID), application.Relationship_Post_Content)
 		if err != nil {
 			return err
 		}
@@ -104,7 +98,11 @@ func (this *ServicePost) Create(ctx context.Context, request *protobuf.PostCreat
 
 	// If caching is enabled
 	// 如果开启了缓存的功能
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		em.Cache.DeleteHash(application.Cache_CmsPostGetByUrlPath, form.UrlPath)
 		em.Cache.DeleteHash(application.Cache_CmsGetOnePostByCategoryIdWithHighestSort, strconv.Itoa(int(form.ID)))
 	}
@@ -137,7 +135,11 @@ func (this *ServicePost) Edit(ctx context.Context, request *protobuf.PostEdit) (
 	// If caching is enabled
 	// 如果开启了缓存的功能
 	var tmpPost model.Post
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		em.DB.First(&tmpPost, request.GetId())
 	}
 
@@ -157,23 +159,16 @@ func (this *ServicePost) Edit(ctx context.Context, request *protobuf.PostEdit) (
 		for _, v := range request.Thumbnail {
 			thumbnail_path = append(thumbnail_path, v.Path)
 		}
-		var t = client.Parameter_Post_CreateImage{
-			Paths:     thumbnail_path,
-			OwnerId:   uint32(form.ID),
-			OwnerType: application.Relationship_Post_Thumbnail,
+		err := client.NewClient().Attachment_CreateMany(&ctx, thumbnail_path, uint32(form.ID), application.Relationship_Post_Thumbnail)
+		if err != nil {
+			return err
 		}
 
 		var content_path []string
 		for _, v := range request.ContentImage {
 			content_path = append(content_path, v.Path)
 		}
-		var c = client.Parameter_Post_CreateImage{
-			Paths:     content_path,
-			OwnerId:   uint32(form.ID),
-			OwnerType: application.Relationship_Post_Content,
-		}
-
-		err := client.NewClient().Post_CreateImage(ctx, t, c)
+		_, err = client.NewClient().Attachment_Append(&ctx, content_path, uint32(form.ID), application.Relationship_Post_Content, nil)
 		if err != nil {
 			return err
 		}
@@ -191,7 +186,7 @@ func (this *ServicePost) Edit(ctx context.Context, request *protobuf.PostEdit) (
 
 	// If caching is enabled
 	// 如果开启了缓存的功能
-	if em.Micro.Config.App.EnableCache {
+	if strings.ToLower(e) == "true" {
 		em.Cache.DeleteHash(application.Cache_CmsPostGetByUrlPath, tmpPost.UrlPath)
 		em.Cache.DeleteHash(application.Cache_CmsPostGetByUrlPath, form.UrlPath)
 		em.Cache.DeleteHash(application.Cache_CmsGetOnePostByCategoryIdWithHighestSort, strconv.Itoa(int(request.GetId())))
@@ -221,7 +216,11 @@ func (this *ServicePost) Delete(ctx context.Context, request *protobuf.PostDelet
 
 	// If caching is enabled
 	// 如果开启了缓存的功能
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		var ctmp []model.Post
 		em.DB.Where(ids).Find(&ctmp)
 		var tmpurl []string
@@ -239,7 +238,7 @@ func (this *ServicePost) Delete(ctx context.Context, request *protobuf.PostDelet
 		em.Cache.DeleteHash(application.Cache_CmsGetOnePostByCategoryIdWithHighestSort, str...)
 	}
 
-	err := em.DB.Transaction(func(tx *gorm.DB) error {
+	err = em.DB.Transaction(func(tx *gorm.DB) error {
 
 		err := client.NewClient().Attachment_Delete(&ctx, ids, application.Relationship_Post_Thumbnail)
 		if err != nil {
@@ -279,6 +278,14 @@ func (this *ServicePost) GetAll(ctx context.Context, request *em_protobuf.Pagina
 	search := request.Search
 
 	em.DB.Model(&model.Post{}).Preload("Category").Where("name " + em.FUZZY_SEARCH + " ?", "%"+ search +"%").Count(&count).Limit(limit).Offset(offset).Order("sort desc").Order("updated_at desc").Find(&data)
+
+	var p model.Post
+	err := p.WithAttachment(&ctx, data, application.Relationship_Post_Thumbnail)
+	if err != nil {
+		return em.ErrorRpc(codes.InvalidArgument, em.ERROR_Code, em.I18n.TranslateFromRequest(ctx, "ERROR_Get"), nil, err)
+	}
+
+	p.AttachmentSortAsc(data)
 
 	return em.SuccessRpc(em.SUCCESS_Code, em.I18n.TranslateFromRequest(ctx, "SUCCESS_Get"), map[string]interface{}{"data": data, "count":count})
 }

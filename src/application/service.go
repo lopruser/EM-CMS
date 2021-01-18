@@ -1,6 +1,11 @@
 package application
 
 const (
+	Version_Service = "0.0.1"
+)
+
+
+const (
 	Service_Attachment = "AttachmentRpcService"
 )
 

@@ -6,9 +6,11 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
 	em "github.com/Etpmls/Etpmls-Micro"
+	"github.com/Etpmls/Etpmls-Micro/define"
 	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
 	"google.golang.org/grpc/codes"
 	"gorm.io/gorm"
+	"strings"
 )
 
 type ServiceVariable struct {
@@ -35,9 +37,9 @@ func (this *ServiceVariable) Create(ctx context.Context, request *protobuf.Varia
 
 	// If the user submits empty data, return directly
 	// 如果用户提交空数据，直接返回
-	if len(request.Variable) == 0 {
+	/* if len(request.Variable) == 0 {
 		return em.ErrorRpc(codes.InvalidArgument, em.ERROR_Code, em.I18n.TranslateFromRequest(ctx, "ERROR_MESSAGE_DataIsEmpty"), nil, nil)
-	}
+	}*/
 
 	err := em.DB.Transaction(func(tx *gorm.DB) error {
 		if err := tx.Unscoped().Where("1 = 1").Delete(model.Variable{}).Error; err != nil {
@@ -53,9 +55,12 @@ func (this *ServiceVariable) Create(ctx context.Context, request *protobuf.Varia
 
 			vars = append(vars, tmp)
 		}
-		result := tx.Create(&vars)
-		if result.Error != nil {
-			return result.Error
+		if len(vars) > 0 {
+			result := tx.Create(&vars)
+			if result.Error != nil {
+				em.LogError.OutputSimplePath(result.Error)
+				return result.Error
+			}
 		}
 
 		return nil
@@ -66,7 +71,11 @@ func (this *ServiceVariable) Create(ctx context.Context, request *protobuf.Varia
 
 	// If caching is enabled
 	// 如果开启了缓存功能
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		// Delete cache
 		// 删除缓存
 		em.Cache.DeleteString(application.Cache_CmsVariableGetAll)

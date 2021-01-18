@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"github.com/Etpmls/EM-CMS/src/application"
 	em "github.com/Etpmls/Etpmls-Micro"
+	"github.com/Etpmls/Etpmls-Micro/define"
+	"strings"
 	"time"
 )
 
@@ -20,7 +22,12 @@ type Variable struct {
 // Get all variable
 // 获取全部变量
 func (this *Variable) GetAll() interface{} {
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+
+	if strings.ToLower(e) == "true" {
 		return this.GetAll_Cache()
 	} else {
 		return this.GetAll_NotCache()
@@ -51,7 +58,12 @@ func (this *Variable) GetAll_NotCache() interface{} {
 
 	// If caching is enabled
 	// 如果开启了缓存的功能
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+
+	if strings.ToLower(e) == "true" {
 		b, err := json.Marshal(data)
 		if err != nil {
 			em.LogError.OutputFullPath(err)

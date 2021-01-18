@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"fmt"
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/client"
 	em "github.com/Etpmls/Etpmls-Micro"
+	"github.com/Etpmls/Etpmls-Micro/define"
 	"github.com/go-redis/redis/v8"
 	"gorm.io/gorm"
 	"sort"
+	"strings"
 	"time"
 )
 
@@ -31,7 +32,7 @@ type Category struct {
 	IsHidden int                  `json:"is_hidden"`
 	IsMain int                    `json:"is_main"`
 	Children []Category           `gorm:"-" json:"children,omitempty"`
-	Thumbnail  []Attachment `gorm:"polymorphic:Owner;polymorphicValue:category-thumbnail" json:"thumbnail"`
+	Thumbnail  []Attachment `gorm:"-" json:"thumbnail"`
 	Posts []Post				  `gorm:"foreignKey:CategoryID"`
 }
 
@@ -55,7 +56,11 @@ func (this *Category) InterfaceToCategory(i interface{}) (Category, error) {
 // Get All Category
 // 获取所有Category
 func (this *Category) GetAll() ([]Category, error) {
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		return this.getAll_Cache()
 	} else {
 		return this.getAll_NoCache()
@@ -91,7 +96,11 @@ func (this *Category) getAll_NoCache() ([]Category, error) {
 
 	em.DB.Find(&list)
 
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		b, err := json.Marshal(list)
 		if err != nil {
 			em.LogError.Output(em.MessageWithLineNum(err.Error()))
@@ -106,7 +115,11 @@ func (this *Category) getAll_NoCache() ([]Category, error) {
 // Get all Category trees
 // 获取所有Category树
 func (this *Category) GetTree() ([]Category, error) {
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		return this.getTree_Cache()
 	} else {
 		return this.getTree_NoCache()
@@ -136,7 +149,11 @@ func (this *Category) getTree_NoCache() ([]Category, error) {
 		return nil, err
 	}
 
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		b, err := json.Marshal(newTree)
 		if err != nil {
 			em.LogError.Output(err)
@@ -293,5 +310,18 @@ func (this *Category) WithAttachment(ctx *context.Context, c *[]Category, owner_
 
 	f2(c)
 
+
+
 	return nil
+}
+
+
+func (this *Category) AttachmentSortAsc(slice []Category) {
+	for _, v := range slice {
+		sort.Sort(attachment_SortAsc(v.Thumbnail))
+		if len(v.Children) > 0 {
+			this.AttachmentSortAsc(v.Children)
+		}
+	}
+	return
 }

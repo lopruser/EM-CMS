@@ -386,3 +386,422 @@
 2021/01/05 15:16:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
 2021/01/05 15:16:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
 2021/01/05 15:16:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 17:06:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 17:06:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 17:06:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 17:06:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 17:06:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 17:06:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 17:06:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 17:07:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 17:07:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 17:07:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 17:07:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 17:07:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 17:07:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 17:07:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 20:39:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 20:39:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 20:39:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 20:39:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 20:39:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 20:39:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 20:39:52 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 20:49:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 20:49:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 20:49:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 20:49:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 20:49:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 20:49:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 20:49:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 20:54:57 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 20:54:57 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 20:54:57 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 20:54:57 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 20:54:57 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 20:54:57 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 20:54:57 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 20:56:11 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 20:56:11 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 20:56:11 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 20:56:11 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 20:56:11 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 20:56:11 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 20:56:11 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 20:57:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 20:57:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 20:57:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 20:57:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 20:57:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 20:57:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 20:57:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 20:58:36 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 20:58:36 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 20:58:36 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 20:58:36 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 20:58:36 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 20:58:36 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 20:58:36 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 21:01:15 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 21:01:15 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 21:01:15 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 21:01:15 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 21:01:15 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 21:01:15 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 21:01:15 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 21:02:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 21:02:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 21:02:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 21:02:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 21:02:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 21:02:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 21:02:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 21:03:30 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 21:03:30 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 21:03:31 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 21:03:31 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 21:03:31 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 21:03:31 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 21:03:31 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 21:04:31 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 21:04:31 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 21:04:32 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 21:04:32 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 21:04:32 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 21:04:32 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 21:04:32 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 21:05:07 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 21:05:07 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 21:05:07 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 21:05:07 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 21:05:07 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 21:05:07 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 21:05:07 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 21:10:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 21:10:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 21:10:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 21:10:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 21:10:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 21:10:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 21:10:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/05 21:15:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:116: [INFO] Successfully loaded configuration file!
+2021/01/05 21:15:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:30: [INFO] logrus initialized successfully.
+2021/01/05 21:15:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:56: [INFO] Registration Consul Service successfully.
+2021/01/05 21:15:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/05 21:15:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:32: [INFO] Successfully loaded Init_GoI18n.
+2021/01/05 21:15:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/05 21:15:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/http-tag  is not configured!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:238: [ERROR] service/CmsRpcService-1/rpc-port  is not configured!
+2021/01/16 22:09:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/http-tag  is not configured!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:238: [ERROR] service/CmsRpcService-1/http-id  is not configured!
+2021/01/16 22:10:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/16 22:14:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:02:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:09:56 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:13:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:16:01 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:18:16 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:19:41 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:21:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:22:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 15:26:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 16:21:45 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 16:23:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 16:33:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING] app/communication-timeout  is not configured!
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:106: [INFO] app/communication-timeout  is set to 5s!
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 17:11:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:224: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 17:11:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 17:11:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [WARNING][DEFAULT: info] log/level  is not configured!
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 17:40:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 17:40:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 17:40:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 17:40:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 17:40:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [WARNING][DEFAULT: info] log/level  is not configured!
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [WARNING][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 17:53:02 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 18:10:44 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 18:26:33 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 18:26:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 18:26:34 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 19:01:37 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 20:12:27 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 20:30:46 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 20:37:18 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 20:37:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 20:37:19 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 20:39:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:59: [INFO] Successfully loaded configuration file!
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:270: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:105: [INFO][DEFAULT: 5s] app/communication-timeout  is not configured!
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService/rpc-tag  is not configured!
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/rpc-tag  is not configured!
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:223: [WARNING] service/CmsRpcService-1/http-tag  is not configured!
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/17 21:03:43 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!

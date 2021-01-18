@@ -8,6 +8,7 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
 	em "github.com/Etpmls/Etpmls-Micro"
+	"github.com/Etpmls/Etpmls-Micro/define"
 	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
 	"google.golang.org/grpc/codes"
 	"gorm.io/gorm"
@@ -83,7 +84,11 @@ func (this *ServiceCategory) Create(ctx context.Context, request *protobuf.Categ
 
 	// If caching is enabled
 	// 如果开启了缓存功能
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		em.Cache.DeleteHash(application.Cache_CmsCategoryGetByUrlPath, form.UrlPath)
 		em.Cache.DeleteString(application.Cache_CmsCategoryGetTree)
 		em.Cache.DeleteString(application.Cache_CmsCategoryGetAll)
@@ -110,7 +115,11 @@ func (this *ServiceCategory) Edit(ctx context.Context, request *protobuf.Categor
 	// Get the URLpath before modification
 	// 获取修改前的URLpath
 	var tmpCategory model.Category
-	if em.Micro.Config.App.EnableCache {
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
+	if strings.ToLower(e) == "true" {
 		tmpCategory, err = tmpCategory.GetById(uint(request.GetId()))
 		if err != nil {
 			return em.ErrorRpc(codes.Internal, em.ERROR_Code, em.I18n.TranslateFromRequest(ctx, "ERROR_Edit"), nil, err)
@@ -152,7 +161,7 @@ func (this *ServiceCategory) Edit(ctx context.Context, request *protobuf.Categor
 
 	// If caching is enabled
 	// 如果开启了缓存功能
-	if em.Micro.Config.App.EnableCache {
+	if strings.ToLower(e) == "true" {
 		em.Cache.DeleteHash(application.Cache_CmsCategoryGetByUrlPath, tmpCategory.UrlPath)	// URLPATH before modification 修改前的URLPATH
 		em.Cache.DeleteHash(application.Cache_CmsCategoryGetByUrlPath, form.UrlPath)	// Modified URLPATH 修改的URLPATH
 		em.Cache.DeleteString(application.Cache_CmsCategoryGetTree)
@@ -176,6 +185,10 @@ func (this *ServiceCategory) Delete(ctx context.Context, request *protobuf.Categ
 		}
 	}
 
+	e, err := em.Kv.ReadKey(define.KvCacheEnable)
+	if err != nil {
+		em.LogDebug.OutputSimplePath(err)
+	}
 
 	var ids []uint32
 	for _, v := range request.Categories {
@@ -210,7 +223,7 @@ func (this *ServiceCategory) Delete(ctx context.Context, request *protobuf.Categ
 
 		// If caching is enabled
 		// 如果开启了缓存功能
-		if em.Micro.Config.App.EnableCache {
+		if strings.ToLower(e) == "true" {
 			tmpc = make([]model.Category, len(c))
 			copy(tmpc, c)
 		}
@@ -229,7 +242,7 @@ func (this *ServiceCategory) Delete(ctx context.Context, request *protobuf.Categ
 
 	// If caching is enabled
 	// 如果开启了缓存功能
-	if em.Micro.Config.App.EnableCache {
+	if strings.ToLower(e) == "true" {
 		// Delete Url Path in the list to be deleted
 		// 删除待删除列表中的Url Path
 		var tmpurl []string
@@ -255,6 +268,8 @@ func (this *ServiceCategory) GetTree(ctx context.Context, request *em_protobuf.E
 	if err != nil {
 		return em.ErrorRpc(codes.InvalidArgument, em.ERROR_Code, em.I18n.TranslateFromRequest(ctx, "ERROR_Get"), nil, err)
 	}
+
+	category.AttachmentSortAsc(tree)
 
 	return em.SuccessRpc(em.SUCCESS_Code, em.I18n.TranslateFromRequest(ctx, "SUCCESS_Delete"), tree)
 }
