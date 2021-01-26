@@ -24,7 +24,7 @@ type ServiceCategory struct {
 type validate_CategoryCreate struct {
 	Name string	`json:"name" validate:"required,min=1,max=255"`
 	ParentID uint	`json:"parent_id" validate:"min=0,max=9999999999"`
-	Kind string	`json:"kind" validate:"required,oneof=link page"`
+	Kind string	`json:"kind" validate:"required,oneof=link webPage"`
 	UrlPath string	`json:"url_path" validate:"omitempty,min=1,max=255"`
 	Sort int	`json:"sort" validate:"min=0,max=9999999999"`
 	Summary string	`json:"summary" validate:"max=1000"`

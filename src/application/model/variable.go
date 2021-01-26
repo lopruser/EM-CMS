@@ -21,7 +21,7 @@ type Variable struct {
 
 // Get all variable
 // 获取全部变量
-func (this *Variable) GetAll() interface{} {
+func (this *Variable) GetAll() ([]Variable, error) {
 	e, err := em.Kv.ReadKey(define.KvCacheEnable)
 	if err != nil {
 		em.LogDebug.OutputSimplePath(err)
@@ -33,7 +33,7 @@ func (this *Variable) GetAll() interface{} {
 		return this.GetAll_NotCache()
 	}
 }
-func (this *Variable) GetAll_Cache() interface{} {
+func (this *Variable) GetAll_Cache() ([]Variable, error) {
 	j, err := em.Cache.GetString(application.Cache_CmsVariableGetAll)
 	if err != nil {
 		return this.GetAll_NotCache()
@@ -48,9 +48,9 @@ func (this *Variable) GetAll_Cache() interface{} {
 
 	em.LogDebug.OutputFullPath("Get CmsVariable from the cache according to UrlPath.")	// debug
 
-	return cache
+	return cache, nil
 }
-func (this *Variable) GetAll_NotCache() interface{} {
+func (this *Variable) GetAll_NotCache() ([]Variable, error) {
 	em.LogDebug.OutputSimplePath("Variable cache not found")	// debug
 
 	var data []Variable
@@ -67,10 +67,22 @@ func (this *Variable) GetAll_NotCache() interface{} {
 		b, err := json.Marshal(data)
 		if err != nil {
 			em.LogError.OutputFullPath(err)
-		} else {
-			em.Cache.SetString(application.Cache_CmsVariableGetAll, string(b), 0)
+			return nil, err
 		}
+		em.Cache.SetString(application.Cache_CmsVariableGetAll, string(b), 0)
 	}
 
-	return data
+	return data, nil
+}
+
+func (this *Variable) GetMap() (map[string]interface{}, error) {
+	vars, err := this.GetAll()
+	if err != nil {
+		return nil, err
+	}
+	var m = make(map[string]interface{})
+	for _, v := range vars {
+		m[v.Name] = v.Value
+	}
+	return m, nil
 }

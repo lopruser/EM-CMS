@@ -102,3 +102,4 @@ func (this *Post) AttachmentSortAsc(slice []Post) {
 	}
 	return
 }
+

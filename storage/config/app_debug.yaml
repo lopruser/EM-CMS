@@ -1,0 +1,6 @@
+kv:
+  address:
+    - "192.168.3.219:8500"
+service:
+  rpc-id: "CmsRpcService-1"
+  rpc-name: "CmsRpcService"

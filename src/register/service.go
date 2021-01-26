@@ -15,6 +15,7 @@ func RegisterRpcService(s *grpc.Server)  {
 	protobuf.RegisterPostServer(s, &service.ServicePost{})
 	protobuf.RegisterVariableServer(s, &service.ServiceVariable{})
 	protobuf.RegisterPageServer(s, &service.ServicePage{})
+	protobuf.RegisterSettingServer(s, &service.ServiceSetting{})
 	return
 }
 
@@ -40,7 +41,10 @@ func RegisterHttpService(ctx context.Context, mux *runtime.ServeMux, grpcServerE
 	if err != nil {
 		return err
 	}
-
+	err = protobuf.RegisterSettingHandlerFromEndpoint(ctx, mux,  *grpcServerEndpoint, opts)
+	if err != nil {
+		return err
+	}
 
 	return nil
 }

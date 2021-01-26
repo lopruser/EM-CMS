@@ -86,6 +86,9 @@ func (this *ServiceVariable) Create(ctx context.Context, request *protobuf.Varia
 
 func (this *ServiceVariable) GetAll(ctx context.Context, request *em_protobuf.Empty) (*em_protobuf.Response, error) {
 	var v model.Variable
-	data := v.GetAll()
+	data, err := v.GetAll()
+	if err != nil {
+		return em.ErrorRpc(codes.InvalidArgument, em.ERROR_Code, err.Error(), nil, err)
+	}
 	return em.SuccessRpc(em.SUCCESS_Code, em.I18n.TranslateFromRequest(ctx, "SUCCESS_Get"), data)
 }

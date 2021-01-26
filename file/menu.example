@@ -1,0 +1,103 @@
+[
+  {
+    "alwaysShow": true,
+    "children": [
+      {
+        "component": "Etpmls-Micro/views/user/index",
+        "meta": {
+          "title": "user"
+        },
+        "name": "User",
+        "path": "user"
+      },
+      {
+        "component": "Etpmls-Micro/views/role/index",
+        "meta": {
+          "title": "role"
+        },
+        "name": "Role",
+        "path": "role"
+      },
+      {
+        "component": "Etpmls-Micro/views/permission/index",
+        "meta": {
+          "title": "permission"
+        },
+        "name": "Permission",
+        "path": "permission"
+      },
+      {
+        "component": "Etpmls-Micro/views/menu/index",
+        "meta": {
+          "title": "menu"
+        },
+        "name": "Menu",
+        "path": "menu"
+      },
+      {
+        "component": "Etpmls-Micro/views/setting/index",
+        "meta": {
+          "title": "setting"
+        },
+        "name": "Setting",
+        "path": "setting"
+      }
+    ],
+    "component": "Layout",
+    "meta": {
+      "icon": "el-icon-s-tools",
+      "roles": [
+        "Administrator"
+      ],
+      "title": "admin"
+    },
+    "name": "Admin",
+    "path": "/admin",
+    "redirect": "/admin/user"
+  },
+  {
+    "alwaysShow": true,
+    "component": "Layout",
+    "meta": {
+      "icon": "el-icon-notebook-2",
+      "title": "cms"
+    },
+    "name": "CMS",
+    "path": "/cms",
+    "redirect": "EM-CMS/views/category",
+    "children": [
+          {
+            "component": "EM-CMS/views/category/index",
+            "meta": {
+              "title": "category"
+            },
+            "name": "Category",
+            "path": "category"
+          },
+          {
+            "component": "EM-CMS/views/post/index",
+            "meta": {
+              "title": "post"
+            },
+            "name": "Post",
+            "path": "post"
+          },
+          {
+            "component": "EM-CMS/views/variable/index",
+            "meta": {
+              "title": "variable"
+            },
+            "name": "Variable",
+            "path": "variable"
+          },
+          {
+            "component": "EM-CMS/views/setting/index",
+            "meta": {
+              "title": "setting"
+            },
+            "name": "Setting",
+            "path": "setting"
+          }
+    ]
+  }
+]

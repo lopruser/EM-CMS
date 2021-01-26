@@ -195,7 +195,7 @@ func (this *Category) GetById(categoryId uint) (Category, error) {
 			return v, nil
 		}
 	}
-	return Category{}, errors.New("CmsCategory GetById Not Found!")
+	return Category{}, errors.New("Category GetById Not Found!")
 }
 
 // Sort CmsCategory	[Go Sort package]

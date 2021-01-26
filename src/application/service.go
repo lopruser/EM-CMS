@@ -1,7 +1,16 @@
 package application
 
+import "github.com/gin-contrib/multitemplate"
+
 const (
 	Version_Service = "0.0.1"
+)
+
+const (
+	KvServiceWebPort = "/web-port"
+	KvServiceWebId = "/web-id"
+	KvServiceWebName = "/web-name"
+	KvServiceWebTag = "/web-tag"
 )
 
 
@@ -16,6 +25,7 @@ const (
 )
 
 
+/* Cache */
 // Redis variable
 // Redis变量
 var (
@@ -55,3 +65,5 @@ var (
 	// 删除触发：创建该URLPATH触发（防止同URL），编辑该UrlPath的文章时触发，删除该UrlPath的文章时触发
 	Cache_CmsPostGetByUrlPath = "CmsPostGetByUrlPath"
 )
+
+var HTMLRender multitemplate.Renderer

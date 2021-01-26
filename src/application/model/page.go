@@ -1,8 +1,9 @@
 package model
 
 import (
-	"io/ioutil"
-	"strings"
+	"github.com/Etpmls/EM-CMS/src/application/web"
+	em "github.com/Etpmls/Etpmls-Micro"
+	"path/filepath"
 )
 
 type Page struct {
@@ -12,40 +13,18 @@ type Page struct {
 // Get template path
 // 获取模板路径
 func (this *Page)PageGetTemplatePath() []string {
-	var list []string
-	files,_ := ioutil.ReadDir("storage/view/template")
+	// Get the default template name
+	defaultTplName := em.MustGetServiceNameKvKey(web.KvServiceDefaultTemplate)
+	// Get all templates including layout
+	allTpl := em.MustListServiceNameKvKey(web.KvServiceTemplate + "/" + defaultTplName)
 
-	// Search Files In Dir
-	// 在目录中搜索文件
-	var f func(path string, list *[]string)
-	f = func(path string, list *[]string)  {
-		files,_ := ioutil.ReadDir(path)
-		for _, v := range files {
-			if v.IsDir() {
-				if v.Name() != "layout" {
-					f(path + "/" + v.Name(), list)
-				}
-			} else {
-				*list = append(*list, path + "/" + v.Name())
-			}
+	var tpls []string
+	for k, _ := range allTpl {
+		if filepath.Base(filepath.Dir(k)) == web.LayoutDirName {
+			continue
 		}
+		tpls = append(tpls, filepath.Base(filepath.Dir(k)) + "/" + filepath.Base(k))
 	}
-
-	for _,v := range files {
-		if v.IsDir() {
-			if v.Name() != "layout" {
-				f("storage/view/template/" + v.Name(), &list)
-			}
-		} else {
-			if v.Name() != ".gitignore" {
-				list = append(list, v.Name())
-			}
-		}
-	}
-
-	// Trim Prefix
-	for k, v := range list {
-		list[k] = strings.TrimPrefix(v, "storage/view/template/")
-	}
-	return list
+	return tpls
 }
+
