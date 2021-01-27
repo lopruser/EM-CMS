@@ -2536,3 +2536,174 @@
 2021/01/23 16:06:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
 2021/01/23 16:06:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
 2021/01/23 16:06:35 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 15:07:28 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 15:10:40 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 15:16:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 15:55:10 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 15:57:17 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 15:59:12 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:01:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:01:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:01:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:01:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:01:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:01:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:01:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:01:04 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:01:04 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:03:23 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:14:06 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:16:09 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:18:03 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:49:49 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:56:42 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 16:58:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/26 17:03:29 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/27 08:25:38 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/27 08:30:00 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/27 08:36:25 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/27 08:36:26 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/yaml.go:64: [INFO] Successfully loaded configuration file!
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:279: [INFO][DEFAULT: info] log/level  is not configured!
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/logrus.go:34: [INFO] logrus initialized successfully.
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/validator.go:13: [INFO] Successfully loaded Init_Validator.
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/go-i18n.go:24: [INFO] Successfully loaded Init_GoI18n.
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/init.go:112: [INFO][DEFAULT: 60s] app/communication-timeout  is not configured!
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/hystrix-go.go:13: [INFO] Successfully loaded Init_HystrixGo.
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/consul.go:55: [INFO] Registration Consul Service successfully.
+2021/01/27 08:52:05 C:/Users/User/go/src/github.com/Etpmls/Etpmls-Micro/library/init.go:41: [INFO] Library initialization completed!

@@ -32,6 +32,12 @@ func (this *Setting) ReloadTemplate(r multitemplate.Renderer) error {
 		pages[k] = v
 	}
 
+
+	render := r.(multitemplate.Render)
+	for k ,_ := range render {
+		delete(render, k)
+	}
+
 	// tpl = current page + all layout
 	for k, v := range pages {
 		tpl := template.New(web.BaseTemplate)
@@ -59,6 +65,7 @@ func (this *Setting) ReloadTemplate(r multitemplate.Renderer) error {
 		if err != nil {
 			return err
 		}
+
 		r.Add(dirname + "/" + filename, tpl)
 	}
 	return nil

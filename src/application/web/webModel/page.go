@@ -133,7 +133,7 @@ func (this *page) PageGetCategroyListV2(j ApiPageGetCategroyListV2) (h gin.H, er
 
 	// If offset number > count number, then dont use DB
 	if !( count < (j.PerPage * (j.CurrentPage - 1)) ) {
-		em.DB.Preload("Thumbnail").Where("category_id IN (?)", ids).Order("sort desc").Order("created_at desc").Offset(j.PerPage * (j.CurrentPage - 1)).Limit(j.PerPage).Find(&post)
+		em.DB.Where("category_id IN (?)", ids).Order("sort desc").Order("created_at desc").Offset(j.PerPage * (j.CurrentPage - 1)).Limit(j.PerPage).Find(&post)
 	}
 
 
@@ -213,7 +213,7 @@ func (this *page) PageGetPostV2(j ApiPageGetPostV2) (h gin.H, err error) {
 
 	// Get Related products
 	var related_post []model.Post
-	em.DB.Preload("Thumbnail").Where("category_id = ?", post.CategoryID).Not("id = ?", post.ID).Order("updated_at desc").Limit(20).Find(&related_post)
+	em.DB.Where("category_id = ?", post.CategoryID).Not("id = ?", post.ID).Order("updated_at desc").Limit(20).Find(&related_post)
 
 	// Get Sidebar
 	parentCategory := NewCategory().GetTopLevelParentById(category.ID, list)
@@ -260,7 +260,7 @@ func (this *page) PageGetSearchV2(j ApiPageGetSearchV2) (h gin.H, err error) {
 	em.DB.Model(&model.Post{}).Where("name " + em.FUZZY_SEARCH + " ?", "%" + j.Keyword + "%").Count(&count)
 	// If offset number > count number, then dont use DB
 	if !( int(count) < (j.PerPage * (j.CurrentPage - 1)) ) {
-		em.DB.Preload("Thumbnail").Where("name " + em.FUZZY_SEARCH + " ?", "%" + j.Keyword + "%").Offset(j.PerPage * (j.CurrentPage - 1)).Limit(j.PerPage).Find(&post)
+		em.DB.Where("name " + em.FUZZY_SEARCH + " ?", "%" + j.Keyword + "%").Offset(j.PerPage * (j.CurrentPage - 1)).Limit(j.PerPage).Find(&post)
 	}
 
 
@@ -316,7 +316,7 @@ type ApiPageGetCategoryManyByCategoryIdsV2 struct {
 }
 func (this *page) PageGetCategoryManyByCategoryIdsV2(j ApiPageGetCategoryManyByCategoryIdsV2) (c []model.Category, err error) {
 	var categories []model.Category
-	if err := em.DB.Preload("Thumbnail").Where("id IN (?)", j.Ids).Find(&categories).Error; err != nil {
+	if err := em.DB.Where("id IN (?)", j.Ids).Find(&categories).Error; err != nil {
 		return c, err
 	}
 	return categories, err
@@ -437,7 +437,7 @@ type ApiPostGetManyByIdsV2 struct {
 }
 func (this *page) PostGetManyByIdsV2(j ApiPostGetManyByIdsV2) interface{} {
 	var data []model.Post
-	em.DB.Preload("Thumbnail").Where(j.Ids).Find(&data)
+	em.DB.Where(j.Ids).Find(&data)
 	return data
 }
 
@@ -462,7 +462,7 @@ func (this *page) PageGetPostByCategoryUrlPathV2(j ApiPageGetPostByCategoryUrlPa
 	ids := NewCategory().CategoryGetAllChildrenIdByParentIdV2(category.ID)
 	ids = append(ids, category.ID)
 
-	em.DB.Preload("Thumbnail").Where("category_id IN (?)", ids).Find(&post)
+	em.DB.Where("category_id IN (?)", ids).Find(&post)
 
 	return post, nil
 }
@@ -479,7 +479,7 @@ func (this *page) PageGetPostByCategoryIdV2(j ApiPageGetPostByCategoryIdV2) (pos
 	ids := NewCategory().CategoryGetAllChildrenIdByParentIdV2(j.ID)
 	ids = append(ids, j.ID)
 
-	em.DB.Preload("Thumbnail").Where("category_id IN (?)", ids).Find(&post)
+	em.DB.Where("category_id IN (?)", ids).Find(&post)
 
 	return post
 }
