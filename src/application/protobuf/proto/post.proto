@@ -1,0 +1,72 @@
+syntax = "proto3";
+package protobuf;
+option go_package = ".;protobuf";
+import "Etpmls/Etpmls-Micro/common.proto";
+import "google/api/annotations.proto";
+
+message PostCreate {
+    string name=1;
+    uint32 category_id=2;
+    string content=3;
+    string template_path=4;
+    string url_path=5;
+    string language=6;
+    string summary=7;
+    uint32 sort=8;
+    string parameter=9;
+    uint32 status=10;
+    message Path {
+        string path=1;
+    }
+    repeated Path thumbnail=11;
+    repeated Path content_image=12;
+}
+
+message PostEdit {
+    string name=1;
+    uint32 category_id=2;
+    string content=3;
+    string template_path=4;
+    string url_path=5;
+    string language=6;
+    string summary=7;
+    uint32 sort=8;
+    string parameter=9;
+    uint32 status=10;
+    message Path {
+        string path=1;
+    }
+    repeated Path thumbnail=11;
+    repeated Path content_image=12;
+    uint32 id=13;
+}
+
+message PostDelete {
+    repeated em_protobuf.Id posts=1;
+}
+
+service Post {
+    rpc Create (PostCreate) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            post: "/api/cms/v1/post/create"
+            body: "*"
+        };
+    };
+    rpc Edit (PostEdit) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            put: "/api/cms/v1/post/edit"
+            body: "*"
+        };
+    };
+    rpc Delete (PostDelete) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            delete: "/api/cms/v1/post/delete"
+            body: "*"
+        };
+    };
+    rpc GetAll (em_protobuf.Pagination) returns (em_protobuf.Response) {
+        option (google.api.http) = {
+            get: "/api/cms/v1/post/getAll"
+        };
+    };
+}

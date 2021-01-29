@@ -1,0 +1,3 @@
+ERROR_MESSAGE_DataIsEmpty = "Data cannot be empty!"
+ERROR_MESSAGE_SubCategoriesExist = "The category to be deleted contains sub-categories, please delete the sub-categories first, and then delete the parent category!"
+ERROR_MESSAGE_PostExist = "The category contains articles, please delete all articles under the category first, and then delete the category!"
