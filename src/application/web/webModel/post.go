@@ -4,9 +4,11 @@ import (
 	"encoding/json"
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/model"
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+
 	"github.com/go-redis/redis/v8"
+
 	"strconv"
 	"strings"
 )
@@ -53,7 +55,7 @@ func (this *post) getByUrlPath_NoCache(url_path string, enableCache bool) (model
 	em.LogDebug.OutputFullPath("Post cache not found")	// debug
 
 	var p model.Post
-	result := em.DB.Preload("Thumbnail").Where("url_path = ?", url_path).Order("sort desc").First(&p)
+	result := em.DB.Where("url_path = ?", url_path).Order("sort desc").First(&p)
 	if result.Error != nil {
 		em.LogDebug.OutputFullPath(result.Error)	// DEBUG
 		return model.Post{}, result.Error

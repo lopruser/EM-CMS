@@ -5,8 +5,10 @@ import (
 	"encoding/json"
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/client"
-	em "github.com/Etpmls/Etpmls-Micro"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+
 	"gorm.io/gorm"
+
 	"sort"
 	"time"
 )
@@ -48,7 +50,7 @@ func (this *Post) InterfaceToPost(i interface{}) (Post, error) {
 	return p, nil
 }
 
-func (this *Post) WithAttachment(ctx *context.Context, c []Post, owner_type string) (error) {
+func (this *Post) WithAttachment(ctx *context.Context, c *[]Post, owner_type string) (error) {
 	// 1.Get all ids
 	var f func (v []Post, ids *[]uint32)
 	f = func (v []Post, ids *[]uint32) {
@@ -57,7 +59,7 @@ func (this *Post) WithAttachment(ctx *context.Context, c []Post, owner_type stri
 		}
 	}
 	var ids []uint32
-	f(c, &ids)
+	f(*c, &ids)
 
 	// 2.Get all thumbnail
 	b, err := client.NewClient().Attachment_GetMany(ctx, ids, application.Relationship_Post_Thumbnail)
@@ -91,7 +93,7 @@ func (this *Post) WithAttachment(ctx *context.Context, c []Post, owner_type stri
 		}
 	}
 
-	f2(&c)
+	f2(c)
 
 	return nil
 }
@@ -103,3 +105,30 @@ func (this *Post) AttachmentSortAsc(slice []Post) {
 	return
 }
 
+func (this *Post) WithAttachmentByPost(ctx *context.Context, c *Post, owner_type string) (error) {
+	// 2.Get all thumbnail
+	b, err := client.NewClient().Attachment_GetMany(ctx, []uint32{uint32(c.ID)}, application.Relationship_Post_Thumbnail)
+	if err != nil {
+		return err
+	}
+
+	var tmp []Attachment
+	err = json.Unmarshal(b, &tmp)
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+		return err
+	}
+
+	if len(tmp) == 0 {
+		return nil
+	}
+
+	c.Thumbnail = tmp
+
+	return nil
+}
+
+func (this *Post) AttachmentSortAscByPost(p *Post) {
+	sort.Sort(attachment_SortAsc(p.Thumbnail))
+	return
+}

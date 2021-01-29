@@ -6,14 +6,14 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application/client"
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
-	em_library "github.com/Etpmls/Etpmls-Micro/library"
-	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+	em_library "github.com/Etpmls/Etpmls-Micro/v2/library"
+	em_protobuf "github.com/Etpmls/Etpmls-Micro/v2/protobuf"
+
 	"github.com/google/uuid"
 	"google.golang.org/grpc/codes"
 	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
 	"strconv"
 	"strings"
 )
@@ -66,7 +66,7 @@ func (this *ServicePost) Create(ctx context.Context, request *protobuf.PostCreat
 
 		form.Status = 1
 
-		if err := tx.Omit(clause.Associations).Create(&form).Error; err != nil {
+		if err := tx.Create(&form).Error; err != nil {
 			return err
 		}
 
@@ -280,7 +280,7 @@ func (this *ServicePost) GetAll(ctx context.Context, request *em_protobuf.Pagina
 	em.DB.Model(&model.Post{}).Preload("Category").Where("name " + em.FUZZY_SEARCH + " ?", "%"+ search +"%").Count(&count).Limit(limit).Offset(offset).Order("sort desc").Order("updated_at desc").Find(&data)
 
 	var p model.Post
-	err := p.WithAttachment(&ctx, data, application.Relationship_Post_Thumbnail)
+	err := p.WithAttachment(&ctx, &data, application.Relationship_Post_Thumbnail)
 	if err != nil {
 		return em.ErrorRpc(codes.InvalidArgument, em.ERROR_Code, em.I18n.TranslateFromRequest(ctx, "ERROR_Get"), nil, err)
 	}

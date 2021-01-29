@@ -13,7 +13,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Etpmls/Etpmls-Micro/protobuf"
+	"github.com/Etpmls/Etpmls-Micro/v2/protobuf"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/utilities"
 	"google.golang.org/grpc"

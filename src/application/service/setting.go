@@ -5,8 +5,9 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
-	em "github.com/Etpmls/Etpmls-Micro"
-	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	em_protobuf "github.com/Etpmls/Etpmls-Micro/v2/protobuf"
+
 	"google.golang.org/grpc/codes"
 )
 

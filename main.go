@@ -4,7 +4,7 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/database"
 	"github.com/Etpmls/EM-CMS/src/register"
-	em "github.com/Etpmls/Etpmls-Micro"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
 )
 
 func main()  {

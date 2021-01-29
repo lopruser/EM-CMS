@@ -4,9 +4,11 @@ import (
 	"encoding/json"
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/model"
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+
 	"github.com/go-redis/redis/v8"
+
 	"strings"
 )
 

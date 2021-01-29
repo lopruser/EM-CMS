@@ -5,7 +5,7 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/web"
 	"github.com/Etpmls/EM-CMS/src/application/web/webModel"
-	em "github.com/Etpmls/Etpmls-Micro"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
 	"github.com/gin-gonic/gin"
 	"math"
 	"net/http"
@@ -31,7 +31,7 @@ func (this *ServicePage)PageShowIndex(c *gin.Context)  {
 // 根据分类template_path来显示分类
 func (this *ServicePage)PageShowCategory(c *gin.Context)  {
 	url_path := c.Param("url_path")
-	page := c.Query("ServicePage")
+	page := c.Query("page")
 	cpage, err := strconv.Atoi(page)
 	if err != nil {
 		cpage = 1
@@ -121,7 +121,7 @@ func (this *ServicePage)PageShowPost(c *gin.Context)  {
 // 显示搜索
 func (this *ServicePage)PageShowSearch(c *gin.Context)  {
 	keyword := c.Query("keyword")
-	page := c.Query("ServicePage")
+	page := c.Query("page")
 	cpage, err := strconv.Atoi(page)
 	if err != nil {
 		cpage = 1

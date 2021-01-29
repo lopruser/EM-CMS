@@ -1,9 +1,10 @@
 package webModel
 
 import (
+	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/web"
-	em "github.com/Etpmls/Etpmls-Micro"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 	"io/ioutil"
@@ -136,6 +137,19 @@ func (this *page) PageGetCategroyListV2(j ApiPageGetCategroyListV2) (h gin.H, er
 		em.DB.Where("category_id IN (?)", ids).Order("sort desc").Order("created_at desc").Offset(j.PerPage * (j.CurrentPage - 1)).Limit(j.PerPage).Find(&post)
 	}
 
+	var p model.Post
+	var common common
+	ctx, err := common.GetPublicToken()
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+	} else {
+		err = p.WithAttachment(&ctx, &post, application.Relationship_Post_Thumbnail)
+		if err != nil {
+			em.LogWarn.OutputSimplePath(err)
+		}
+		p.AttachmentSortAsc(post)
+	}
+
 
 	// Breadcrumbs
 	breadcrumbs := this.MakeBreadcrumbs(category.ID, list)
@@ -189,6 +203,19 @@ func (this *page) PageGetPostV2(j ApiPageGetPostV2) (h gin.H, err error) {
 		return h, err
 	}
 
+	var p model.Post
+	var common common
+	ctx, err := common.GetPublicToken()
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+	} else {
+		err = p.WithAttachmentByPost(&ctx, &post, application.Relationship_Post_Thumbnail)
+		if err != nil {
+			em.LogWarn.OutputSimplePath(err)
+		}
+		p.AttachmentSortAscByPost(&post)
+	}
+
 	// Find Category
 	// 查找Category
 	var category model.Category
@@ -214,6 +241,17 @@ func (this *page) PageGetPostV2(j ApiPageGetPostV2) (h gin.H, err error) {
 	// Get Related products
 	var related_post []model.Post
 	em.DB.Where("category_id = ?", post.CategoryID).Not("id = ?", post.ID).Order("updated_at desc").Limit(20).Find(&related_post)
+
+	ctx2, err := common.GetPublicToken()
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+	} else {
+		err = p.WithAttachment(&ctx2, &related_post, application.Relationship_Post_Thumbnail)
+		if err != nil {
+			em.LogWarn.OutputSimplePath(err)
+		}
+		p.AttachmentSortAsc(related_post)
+	}
 
 	// Get Sidebar
 	parentCategory := NewCategory().GetTopLevelParentById(category.ID, list)
@@ -261,6 +299,19 @@ func (this *page) PageGetSearchV2(j ApiPageGetSearchV2) (h gin.H, err error) {
 	// If offset number > count number, then dont use DB
 	if !( int(count) < (j.PerPage * (j.CurrentPage - 1)) ) {
 		em.DB.Where("name " + em.FUZZY_SEARCH + " ?", "%" + j.Keyword + "%").Offset(j.PerPage * (j.CurrentPage - 1)).Limit(j.PerPage).Find(&post)
+	}
+
+	var p model.Post
+	var common common
+	ctx, err := common.GetPublicToken()
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+	} else {
+		err = p.WithAttachment(&ctx, &post, application.Relationship_Post_Thumbnail)
+		if err != nil {
+			em.LogWarn.OutputSimplePath(err)
+		}
+		p.AttachmentSortAsc(post)
 	}
 
 
@@ -438,6 +489,20 @@ type ApiPostGetManyByIdsV2 struct {
 func (this *page) PostGetManyByIdsV2(j ApiPostGetManyByIdsV2) interface{} {
 	var data []model.Post
 	em.DB.Where(j.Ids).Find(&data)
+
+	var p model.Post
+	var common common
+	ctx, err := common.GetPublicToken()
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+	} else {
+		err = p.WithAttachment(&ctx, &data, application.Relationship_Post_Thumbnail)
+		if err != nil {
+			em.LogWarn.OutputSimplePath(err)
+		}
+		p.AttachmentSortAsc(data)
+	}
+
 	return data
 }
 

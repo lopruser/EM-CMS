@@ -1,8 +1,8 @@
 package web
 
 import (
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
 	"github.com/gin-gonic/gin"
 	"strings"
 )

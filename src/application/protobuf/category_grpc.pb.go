@@ -4,7 +4,7 @@ package protobuf
 
 import (
 	context "context"
-	protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
+	protobuf "github.com/Etpmls/Etpmls-Micro/v2/protobuf"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

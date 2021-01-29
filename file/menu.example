@@ -3,7 +3,7 @@
     "alwaysShow": true,
     "children": [
       {
-        "component": "Etpmls-Micro/views/user/index",
+        "component": "EM-Auth/views/user/index",
         "meta": {
           "title": "user"
         },
@@ -11,7 +11,7 @@
         "path": "user"
       },
       {
-        "component": "Etpmls-Micro/views/role/index",
+        "component": "EM-Auth/views/role/index",
         "meta": {
           "title": "role"
         },
@@ -19,7 +19,7 @@
         "path": "role"
       },
       {
-        "component": "Etpmls-Micro/views/permission/index",
+        "component": "EM-Auth/views/permission/index",
         "meta": {
           "title": "permission"
         },
@@ -27,7 +27,7 @@
         "path": "permission"
       },
       {
-        "component": "Etpmls-Micro/views/menu/index",
+        "component": "EM-Auth/views/menu/index",
         "meta": {
           "title": "menu"
         },
@@ -35,7 +35,7 @@
         "path": "menu"
       },
       {
-        "component": "Etpmls-Micro/views/setting/index",
+        "component": "EM-Auth/views/setting/index",
         "meta": {
           "title": "setting"
         },

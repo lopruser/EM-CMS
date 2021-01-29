@@ -5,9 +5,10 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
-	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+	em_protobuf "github.com/Etpmls/Etpmls-Micro/v2/protobuf"
+
 	"google.golang.org/grpc/codes"
 	"gorm.io/gorm"
 	"strings"

@@ -3,8 +3,9 @@ package model
 import (
 	"encoding/json"
 	"github.com/Etpmls/EM-CMS/src/application"
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+
 	"strings"
 	"time"
 )

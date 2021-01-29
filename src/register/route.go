@@ -1,9 +1,9 @@
 package register
 
 import (
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
-	em_library "github.com/Etpmls/Etpmls-Micro/library"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+	em_library "github.com/Etpmls/Etpmls-Micro/v2/library"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"net/http"
 )

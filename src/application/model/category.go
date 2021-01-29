@@ -6,10 +6,12 @@ import (
 	"errors"
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/client"
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+
 	"github.com/go-redis/redis/v8"
 	"gorm.io/gorm"
+
 	"sort"
 	"strings"
 	"time"
@@ -90,9 +92,6 @@ func (this *Category) getAll_NoCache() ([]Category, error) {
 	em.LogDebug.Output(em.MessageWithLineNum("CmsCategory cache not found"))	// debug
 
 	var list []Category
-	/*em.DB.Preload("Thumbnail", func(db *gorm.DB) *gorm.DB {
-		return db.Order("created_at ASC")
-	}).Find(&list)*/
 
 	em.DB.Find(&list)
 

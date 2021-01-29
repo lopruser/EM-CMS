@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
-	em "github.com/Etpmls/Etpmls-Micro"
-	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	em_protobuf "github.com/Etpmls/Etpmls-Micro/v2/protobuf"
 )
 
 func (this *client) Attachment_Delete(ctx *context.Context, owner_ids []uint32, owner_type string) error {

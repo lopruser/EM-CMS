@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/Etpmls/EM-CMS/src/application/web"
-	em "github.com/Etpmls/Etpmls-Micro"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
 	"github.com/gin-contrib/multitemplate"
 	"html/template"
 	"path/filepath"

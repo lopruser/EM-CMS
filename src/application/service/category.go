@@ -7,14 +7,15 @@ import (
 	"github.com/Etpmls/EM-CMS/src/application/client"
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/protobuf"
-	em "github.com/Etpmls/Etpmls-Micro"
-	"github.com/Etpmls/Etpmls-Micro/define"
-	em_protobuf "github.com/Etpmls/Etpmls-Micro/protobuf"
+	em "github.com/Etpmls/Etpmls-Micro/v2"
+	"github.com/Etpmls/Etpmls-Micro/v2/define"
+	em_protobuf "github.com/Etpmls/Etpmls-Micro/v2/protobuf"
+
+	"github.com/google/uuid"
 	"google.golang.org/grpc/codes"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"strings"
-	"github.com/google/uuid"
 )
 
 type ServiceCategory struct {
@@ -24,7 +25,7 @@ type ServiceCategory struct {
 type validate_CategoryCreate struct {
 	Name string	`json:"name" validate:"required,min=1,max=255"`
 	ParentID uint	`json:"parent_id" validate:"min=0,max=9999999999"`
-	Kind string	`json:"kind" validate:"required,oneof=link webPage"`
+	Kind string	`json:"kind" validate:"required,oneof=link page"`
 	UrlPath string	`json:"url_path" validate:"omitempty,min=1,max=255"`
 	Sort int	`json:"sort" validate:"min=0,max=9999999999"`
 	Summary string	`json:"summary" validate:"max=1000"`
@@ -149,7 +150,7 @@ func (this *ServiceCategory) Edit(ctx context.Context, request *protobuf.Categor
 			return err
 		}
 
-		if err := tx.Omit(clause.Associations).Save(&form).Error; err != nil {
+		if err := tx.Save(&form).Error; err != nil {
 			return err
 		}
 
