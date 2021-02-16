@@ -1,0 +1,7 @@
+[
+	"traefik.http.routers.CmsWebService.entrypoints=web",
+	"traefik.http.routers.CmsWebService.rule=Host(`www.xxxxxx.com`)",
+	"traefik.http.routers.CmsWebService.service=CmsWebService",
+
+	"traefik.http.services.CmsWebService.loadbalancer.passhostheader=true"
+]

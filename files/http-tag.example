@@ -1,0 +1,8 @@
+[
+	"traefik.http.routers.CmsHttpService.entrypoints=web",
+	"traefik.http.routers.CmsHttpService.rule=Host(`www.xxxxxx.com`) && PathPrefix(`/api/cms/`)",
+	"traefik.http.routers.CmsHttpService.middlewares=forwardAuth@file,circuitBreaker_CmsHttpService@file",
+	"traefik.http.routers.CmsHttpService.service=CmsHttpService",
+
+	"traefik.http.services.CmsHttpService.loadbalancer.passhostheader=true"
+]
