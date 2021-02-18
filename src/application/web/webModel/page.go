@@ -254,12 +254,12 @@ func (this *page) PageGetPostV2(j ApiPageGetPostV2) (h gin.H, err error) {
 	}
 
 	// Get Sidebar
-	parentCategory := NewCategory().GetTopLevelParentById(category.ID, list)
+	parentCategory := NewCategory().GetTopLevelParentById(c.ID, list)
 	sidebar := NewCategory().MakeTreeById(parentCategory.ID, list)
 	category.SortDesc(sidebar.Children)
 
 	// Active Ids
-	allParentCategory := NewCategory().GetAllParentWithSelfById(category.ID, list)
+	allParentCategory := NewCategory().GetAllParentWithSelfById(c.ID, list)
 	var active_ids []uint
 	for _, v := range allParentCategory {
 		active_ids = append(active_ids, v.ID)
@@ -473,7 +473,7 @@ type ApiCategoryGetChildrenV2 struct {
 	DeletedAt *time.Time `uri:"-"`
 }
 // Get Sub 1 Level Category children
-func (this *page) CategoryGetChildrenV2(u ApiCategoryGetChildrenV2) interface{} {
+func (this *page) CategoryGetChildrenV2(u ApiCategoryGetChildrenV2) []model.Category {
 	var category model.Category
 	data, _ := NewCategory().GetChildrenByParentId(u.ID)
 

@@ -2,6 +2,7 @@ package webService
 
 import (
 	"encoding/json"
+	"github.com/Etpmls/EM-CMS/src/application"
 	"github.com/Etpmls/EM-CMS/src/application/model"
 	"github.com/Etpmls/EM-CMS/src/application/web"
 	"github.com/Etpmls/EM-CMS/src/application/web/webModel"
@@ -407,6 +408,19 @@ func (this *ServicePage)PageGetCategoryChildren(c *gin.Context)  {
 	}
 
 	data := webModel.NewPage().CategoryGetChildrenV2(u)
+
+	ctx, err := webModel.NewCommon().GetPublicToken()
+	if err != nil {
+		em.LogError.OutputSimplePath(err)
+	} else {
+		var category model.Category
+		err := category.WithAttachment(&ctx, &data, application.Relationship_category_thumbnail)
+		if err != nil {
+			em.LogWarn.OutputSimplePath(err)
+		}
+		category.AttachmentSortAsc(data)
+	}
+
 	web.JsonSuccess(c, http.StatusOK, web.WebSuccessCode, "success", data)
 	return
 }

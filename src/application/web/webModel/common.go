@@ -9,6 +9,10 @@ type common struct {
 
 }
 
+func NewCommon() *common {
+	return &common{}
+}
+
 func (this *common) GetPublicToken() (context.Context, error) {
 	ctx := context.Background()
 	s, err := em.Micro.Auth.CreateGeneralToken(0, "public")
