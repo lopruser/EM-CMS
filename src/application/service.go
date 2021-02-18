@@ -3,7 +3,7 @@ package application
 import "github.com/gin-contrib/multitemplate"
 
 const (
-	Version_Service = "1.0.0"
+	Version_Service = "1.0.1"
 )
 
 const (
